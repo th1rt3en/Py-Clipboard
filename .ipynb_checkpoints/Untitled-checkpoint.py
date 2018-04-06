@@ -9,6 +9,7 @@ from keyboard import *
 from Tkinter import *
 from ttk import *
 from time import ctime, sleep
+import threading
 import re
 
 
@@ -75,3 +76,5 @@ def run():
 add_hotkey('ctrl+c', func)
 add_hotkey('ctrl+b', run)
 
+while 1:
+    pass
